@@ -6,6 +6,10 @@ Unofficial Torchlight II DLL mod adding camera-relative WASD/ZQSD keyboard movem
 
 An experimental optional controller support addon is also available. It requires the main WASD mod and adds controller input on top of it, including left stick movement, right stick real mouse control, configurable buttons, and a separate configuration tool.
 
+## Important Keybinding Notice
+
+Before installing any component of this mod, it is recommended to set up your Torchlight II key bindings with the WASD/ZQSD movement scheme in mind. To avoid duplicate inputs or key overlaps, free the movement keys you plan to use for the mod and reassign any existing in-game actions that already use those keys.
+
 ## Download
 
 Choose the release matching your game version.
