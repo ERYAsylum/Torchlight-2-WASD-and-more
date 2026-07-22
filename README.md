@@ -1,3 +1,4 @@
+<img width="1254" height="1254" alt="tl2-wasd-and-more-logo" src="https://github.com/user-attachments/assets/99154873-2a36-4d5a-9bf7-aa9204eb177d" />
 # Torchlight 2 WASD and more
 
 Unofficial Torchlight II DLL mod adding camera-relative WASD/ZQSD keyboard movement, click-to-move control options, overlay configuration, and an optional active range x1.5 patch.
