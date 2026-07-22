@@ -4,19 +4,28 @@
 
 Unofficial Torchlight II DLL mod adding camera-relative WASD/ZQSD keyboard movement, click-to-move control options, overlay configuration, and an optional active range x1.5 patch.
 
+An experimental optional controller support addon is also available. It requires the main WASD mod and adds controller input on top of it, including left stick movement, right stick real mouse control, configurable buttons, and a separate configuration tool.
+
 ## Download
 
 Choose the release matching your game version.
 
-- [Download Steam version](https://github.com/erysimumgaming/Torchlight-2-WASD-and-more/releases/tag/steam-v1.0.02z1-beta1)
-- [Download GOG version](https://github.com/erysimumgaming/Torchlight-2-WASD-and-more/releases/tag/gog-v1.0.02z1-beta1)
+- [Download Steam version](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/steam-v1.0.02z1-beta1)
+- [Download GOG version](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/gog-v1.0.02z1-beta1)
 
 Do not mix versions. The Steam and GOG executables use different internal addresses, so each build must be used only with its matching game version.
 
-## Source branches
+## Optional Controller Addon
 
-- [`Steam` branch](https://github.com/erysimumgaming/Torchlight-2-WASD-and-more/tree/Steam)
-- [`GOG` branch](https://github.com/erysimumgaming/Torchlight-2-WASD-and-more/tree/GOG)
+- [Download TL2TrueControlerSupportAddon v0.0.9](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/TL2TrueControlerSupportAddonv0.0.9)
+
+The controller addon is experimental and has only been tested on Windows 10 with an Xbox controller. It depends on the main mod, so install the correct Steam or GOG version of the main mod first.
+
+## Source Branches
+
+- Steam branch
+- GOG branch
+- TL2TrueControlerSupportAddon branch
 
 ## License
 
@@ -24,6 +33,6 @@ GPL-3.0-or-later.
 
 Streaming, recording, reviewing, showcasing, and monetizing gameplay footage using this mod on Twitch, YouTube, or similar platforms is explicitly allowed.
 
-Torchlight II is not included. This project is not affiliated with or endorsed by the owners of Torchlight II
+Torchlight II is not included. This project is not affiliated with or endorsed by the owners of Torchlight II.
 
 <img width="1254" height="1254" alt="tl2-wasd-and-more-logo" src="https://github.com/user-attachments/assets/8d6b5bac-774f-457b-bd78-e667a7c90a26" />
