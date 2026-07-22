@@ -1,0 +1,45 @@
+TL2_WASD_and_more v1.0.02z1-gog port notes
+
+Source base:
+- Steam-oriented TL2TrueKeyboardMove_v1.0.02z1_more_opaque_overlay_source.
+- GOG offsets and executable fingerprints were taken from the previous GOG v0.3 port and revalidated against:
+  C:\Games\Torchlight 2 gog\Torchlight2.exe
+
+Ported executable-dependent points:
+- LocalMove function/hook: Torchlight2.exe+0x153000
+- Vanilla player LocalMove return callsite: 0x00426E8E
+- Transition message send hook: Torchlight2.exe+0x2E18B0
+- Stationary click fallback hook: Torchlight2.exe+0x2ABA9
+- Stationary click fallback attack/continue targets: +0x2AB8B / +0x2ABB1
+- Player self vtable: 0x02177804
+- LocalMove arg1 vtable fingerprint: 0x02178D6C / 0x02178D60 / 0x02178D50
+- Transition message vtables:
+  - SetRunning: 0x021475BC
+  - Spawn: 0x021475EC
+  - PostSpawnSettings: 0x021473AC
+  - RequestLevelOwnership: 0x021439DC
+  - SendLevelOwnership: 0x021473BC
+  - RerollLevel: 0x02143AAC
+  - SetLevel: 0x021476CC
+- CEGUI IAT hooks:
+  - setVisible: 0x0211612C
+  - setText: 0x02116228
+- Interaction-facing target clear functions:
+  - primary actor target setter: Torchlight2.exe+0x124AF0
+  - secondary actor target setter: Torchlight2.exe+0x124C10
+- MSWSOCK active range x1.5 patch sites:
+  - CCharacter outdoor: 0x0054027B
+  - CCharacter indoor: 0x00540288
+  - CItem outdoor: 0x005A65A5
+  - CItem indoor: 0x005A65B2
+
+Validation:
+- All patched byte fingerprints matched the installed GOG executable before build.
+- Release|Win32 MSBuild succeeded.
+- CameraMathTests passed.
+- MSWSOCK proxy build succeeded.
+
+Built output:
+- source\dist\TL2TrueKeyboardMove.dll
+- source\dist\TL2TrueKeyboardMove.ini
+- source\dist\mswsockproxy\MSWSOCK.dll

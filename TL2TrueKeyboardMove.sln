@@ -1,0 +1,26 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TL2TrueKeyboardMove", "src\dll\TL2TrueKeyboardMove.vcxproj", "{E1D1A4A4-2E05-4F6B-8F9D-71C69FA4D471}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraMathTests", "src\tests\CameraMathTests.vcxproj", "{847A559A-4B67-47B1-9F09-6A0B0D787D14}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSWSOCK", "src\mswsockproxy\MSWSOCK.vcxproj", "{7B2B9F41-7CF7-41C0-B4C2-8A2C0C39A57E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D1A4A4-2E05-4F6B-8F9D-71C69FA4D471}.Release|Win32.ActiveCfg = Release|Win32
+		{E1D1A4A4-2E05-4F6B-8F9D-71C69FA4D471}.Release|Win32.Build.0 = Release|Win32
+		{847A559A-4B67-47B1-9F09-6A0B0D787D14}.Release|Win32.ActiveCfg = Release|Win32
+		{847A559A-4B67-47B1-9F09-6A0B0D787D14}.Release|Win32.Build.0 = Release|Win32
+		{7B2B9F41-7CF7-41C0-B4C2-8A2C0C39A57E}.Release|Win32.ActiveCfg = Release|Win32
+		{7B2B9F41-7CF7-41C0-B4C2-8A2C0C39A57E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
