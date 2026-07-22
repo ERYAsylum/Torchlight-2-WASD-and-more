@@ -1,5 +1,4 @@
 <img width="1920" height="1080" alt="Capture d’écran (546)" src="https://github.com/user-attachments/assets/0d01e3e7-9e66-4ecf-a61f-ff3e8a562263" />
-<img width="1254" height="1254" alt="tl2-wasd-and-more-logo" src="https://github.com/user-attachments/assets/99154873-2a36-4d5a-9bf7-aa9204eb177d" />
 # Torchlight 2 WASD and more
 
 Unofficial Torchlight II DLL mod adding camera-relative WASD/ZQSD keyboard movement, click-to-move control options, overlay configuration, and an optional active range x1.5 patch.
@@ -25,3 +24,4 @@ GPL-3.0-or-later.
 Streaming, recording, reviewing, showcasing, and monetizing gameplay footage using this mod on Twitch, YouTube, or similar platforms is explicitly allowed.
 
 Torchlight II is not included. This project is not affiliated with or endorsed by the owners of Torchlight II.
+<img width="1254" height="1254" alt="tl2-wasd-and-more-logo" src="https://github.com/user-attachments/assets/99154873-2a36-4d5a-9bf7-aa9204eb177d" />
