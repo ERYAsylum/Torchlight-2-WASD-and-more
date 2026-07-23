@@ -6,8 +6,10 @@ Unofficial Torchlight II DLL mod adding camera-relative WASD/ZQSD keyboard movem
 
 An experimental optional controller support addon is also available. It requires the main WASD mod and adds controller input on top of it, including left stick movement, right stick real mouse control, configurable buttons, and a separate configuration tool.
 
-Please note that this mod relies heavily on Windows-specific logic and is designed for Windows 10 or later. 
-I do not have access to a Steam Deck or a SteamOS/Linux environment for development and testing, so I do not currently plan to support those platforms. 
+# Please note that this mod relies heavily on Windows-specific logic and is designed for Windows 10 or later.
+
+I do not have access to a Steam Deck or a SteamOS/Linux environment for development and testing, so I do not currently plan to support those platforms.
+
 However, the project is open source under the GPLv3 license, and developers with the necessary time and hardware are free to create and maintain a compatible fork.
 
 ## Important Keybinding Notice
