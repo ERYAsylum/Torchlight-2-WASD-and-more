@@ -10,6 +10,7 @@ Please note that the mod relies heavily on Windows-specific logic.
 It targets Windows 10 and later.
 I do not have a Steam Deck or SteamOS hardware to test or develop this part of the mod.
 Therefore, I do not plan to target that platform at this time.
+However, since the project is open source (GPLv3), a developer with the time and resources could still create a fork for it.
 
 ## Important Keybinding Notice
 
