@@ -59,6 +59,22 @@ Do not use this Steam build on the GOG executable. The Steam and GOG executables
 
 To uninstall, remove those three files from the game directory.
 
+## Steam Deck / SteamOS
+
+Community reports indicate that the mod works on Steam Deck, and the optional Controller Addon does not appear to be required.
+
+Compatibility may vary depending on your SteamOS, Proton, or Wine configuration:
+
+Some users reported that the mod works out of the box with no additional setup.
+Others reported that they needed to add the following launch option in Steam:
+WINEDLLOVERRIDES="MSWSOCK.dll=n,b" %command%
+
+You can add this under:
+
+Steam → Torchlight II → Properties → Launch Options
+
+Since I do not own a Steam Deck or have a SteamOS development environment, I cannot officially test or support this platform. Community feedback is greatly appreciated and will help improve the documentation.
+
 ### Default Controls
 
 - `WASD` / `ZQSD`: move, depending on detected keyboard layout.
