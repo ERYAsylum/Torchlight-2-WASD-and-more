@@ -13,6 +13,7 @@ Community reports indicate that the mod works on Steam Deck, and the optional Co
 Compatibility may vary depending on your SteamOS, Proton, or Wine configuration:
 
 Some users reported that the mod works out of the box with no additional setup.
+
 Others reported that they needed to add the following launch option in Steam:
 WINEDLLOVERRIDES="MSWSOCK.dll=n,b" %command%
 
