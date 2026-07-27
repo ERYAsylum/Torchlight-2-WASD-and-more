@@ -46,6 +46,14 @@ Use it as a test build. Keep a backup of your current files and configuration.
 
 The addon uses input injection and a `d3d9.dll` proxy loader. This is common for small game addons, but it can conflict with other overlays, wrappers, injectors, or DirectX 9 mods.
 
+### Steam Deck / SteamOS / Proton
+
+The Controller Addon does not appear to be compatible with SteamOS/Proton, and it is generally not required on those platforms.
+
+Its purpose is to provide native controller-to-keyboard input translation on Windows, independently of Steam Input. This allows the WASD mod to work with standard game controllers even when Steam Input is disabled or unavailable, and keeps the GOG version fully independent of the Steam launcher.
+
+On Steam Deck and under Proton, Steam Input already provides equivalent functionality. Community reports indicate that the base WASD mod works correctly without the Controller Addon, making the addon unnecessary in most cases.
+
 ### Input Backends
 
 The addon uses several Windows input paths:
