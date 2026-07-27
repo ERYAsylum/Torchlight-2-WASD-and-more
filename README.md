@@ -42,6 +42,14 @@ Do not mix versions. The Steam and GOG executables use different internal addres
 
 The controller addon is experimental and has only been tested on Windows 10 with an Xbox controller. It depends on the main mod, so install the correct Steam or GOG version of the main mod first.
 
+### Steam Deck / SteamOS / Proton
+
+The Controller Addon does not appear to be compatible with SteamOS/Proton, and it is generally not required on those platforms.
+
+Its purpose is to provide native controller-to-keyboard input translation on Windows, independently of Steam Input. This allows the WASD mod to work with standard game controllers even when Steam Input is disabled or unavailable, and keeps the GOG version fully independent of the Steam launcher.
+
+On Steam Deck and under Proton, Steam Input already provides equivalent functionality. Community reports indicate that the base WASD mod works correctly without the Controller Addon, making the addon unnecessary in most cases.
+
 ## Source Branches
 
 - Steam branch
