@@ -31,8 +31,8 @@ Before installing any component of this mod, it is recommended to set up your To
 
 Choose the release matching your game version.
 
-- [Download Steam version](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/steam-v1.0.02z1-beta1)
-- [Download GOG version](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/gog-v1.0.02z1-beta1)
+- [Download compatible Steam version 1.25.5.6 ](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/steam-v1.0.02z1-beta1)
+- [Download compatible GOG version 1.25.9.5b](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/gog-v1.0.02z1-beta1)
 
 Do not mix versions. The Steam and GOG executables use different internal addresses, so each build must be used only with its matching game version.
 
