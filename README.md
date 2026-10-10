@@ -30,7 +30,7 @@ Before installing any component of this mod, it is recommended to set up your To
 ## Download
 
 Choose the release matching your game version.
-
+- [Download compatible Steam version 1.26.0.1 ](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/TL2_WASD_and_more_v1.0.1s_Steam_1.26.0.1) [Up to Date]
 - [Download compatible Steam version 1.25.5.6 ](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/steam-v1.0.02z1-beta1)
 - [Download compatible GOG version 1.25.9.5b](https://github.com/ERYAsylum/Torchlight-2-WASD-and-more/releases/tag/gog-v1.0.02z1-beta1)
 
