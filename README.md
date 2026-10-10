@@ -63,5 +63,3 @@ GPL-3.0-or-later.
 Streaming, recording, reviewing, showcasing, and monetizing gameplay footage using this mod on Twitch, YouTube, or similar platforms is explicitly allowed.
 
 Torchlight II is not included. This project is not affiliated with or endorsed by the owners of Torchlight II.
-
-<img width="1254" height="1254" alt="tl2-wasd-and-more-logo" src="https://github.com/user-attachments/assets/8d6b5bac-774f-457b-bd78-e667a7c90a26" />
